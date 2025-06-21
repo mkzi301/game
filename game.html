@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game by MK</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <h1>Rock Paper Scissor Game</h1>
+
+    <div class="game-area">
+        <div class="user-section">
+            <h2>Your Choice</h2>
+            <div id="user-choice-display" class="choice-display"></div>
+            <p id="user-choice-name"></p>
+        </div>
+
+        <div class="selects">
+            <div class="select" id="rock">
+                <img src="C:\Users\mohod\OneDrive\Desktop\game\rock.png" alt="rock">
+            </div>
+            <div class="select" id="paper">
+                <img src="C:\Users\mohod\OneDrive\Desktop\game\paper.png" alt="paper">
+            </div>
+            <div class="select" id="scissor">
+                <img src="C:\Users\mohod\OneDrive\Desktop\game\scissor.png" alt="scissor">
+            </div>
+        </div>
+
+        <div class="bot-section">
+            <h2>Bot's Choice</h2>
+            <div id="bot-choice-display" class="choice-display"></div>
+            <p id="bot-choice-name"></p>
+        </div>
+    </div>
+
+    <div class="scores">
+        <div class="user-s">
+            <p id="points-u">0</p>
+            <p>You</p>
+        </div>
+        <div class="Bot-s">
+            <p id="points-b">0</p>
+            <p>Bot</p>
+        </div>
+    </div>
+
+    <div class="msg">
+        <p id="msg">Play Your Move</p>
+    </div>
+
+    <script src="game.js"></script>
+
+    <footer>
+        @Made By MK
+    </footer>
+</body>
+</html>

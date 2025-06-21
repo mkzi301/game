@@ -39,10 +39,10 @@ const playgame = (userchoice) => {
     const compchoice = comp();
 
     // Display user and bot choices with image and name
-    userChoiceDisplay.innerHTML = `<img src="C:\\Users\\mohod\\OneDrive\\Desktop\\game\\${userchoice}.png" alt="${userchoice}">`;
+    userChoiceDisplay.innerHTML = `<img src="game\\${userchoice}.png" alt="${userchoice}">`;
     userChoiceName.innerText = userchoice.charAt(0).toUpperCase() + userchoice.slice(1);
     
-    botChoiceDisplay.innerHTML = `<img src="C:\\Users\\mohod\\OneDrive\\Desktop\\game\\${compchoice}.png" alt="${compchoice}">`;
+    botChoiceDisplay.innerHTML = `<img src="game\\${compchoice}.png" alt="${compchoice}">`;
     botChoiceName.innerText = compchoice.charAt(0).toUpperCase() + compchoice.slice(1);
 
     if (userchoice === compchoice) {
